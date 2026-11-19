@@ -1,7 +1,7 @@
 # Documentation about this page: https://fshschool.org/docs/sushi/configuration/
 
-id: org.fhir.[realm:uv|fr|...].[code]
-canonical: https://example.org/ig/[code] # the last part of canonical and id must be the same
+id: org.fhir.se.MF
+canonical: https://example.org/ig/[MF] # the last part of canonical and id must be the same
 name: ExampleIG # Should be an acronym
 title: IG Example
 description: Description du projet
@@ -14,7 +14,7 @@ fhirVersion: 4.0.1
 copyrightYear: 2020+
 releaseLabel: ci-build 
 
-jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
+jurisdiction: urn:iso:std:iso:3166#FR "Sweden"
 
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
     shownav: 'true'
